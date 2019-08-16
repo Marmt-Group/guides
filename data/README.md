@@ -84,7 +84,7 @@ Machine, which is a high-performance engine for running languages like Scala
 that compile into bytecode.
 
 *Type Safety*: languages that provide type safety (such as Scala) check the
-program for possible errors when compiling, which allows developers to prevent
+program for possible errors as part of the compilation process, which allows developers to prevent
 many types of bugs before being deployed.
 
 *Spark*: a distributed computing engine for big data and data streams. Spark is
