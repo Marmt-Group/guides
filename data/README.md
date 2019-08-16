@@ -62,7 +62,7 @@ waiting for multiple network requests to complete.
 *Constant Memory*: processing a stream where the amount of memory required does
 not increase with the size of the stream.
 
-*At Least Once Delivery*: a guarantee that a given message will delivered at
+*At Least Once Delivery*: a guarantee that a given message will be delivered at
 least once, but may be delivered more than once. This is achieved in Kafka by
 committing an offset after it's been fully processed and in RabbitMQ by
 acknowledging a message after fully processing it.
