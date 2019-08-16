@@ -35,7 +35,7 @@ tools to analyze data to discover trends and truths that can be used to provide
 business intelligence.
 
 *Batch Processing*: processing large amounts of data at once. This is acceptable
-for smaller amounts of data and can be simpler in terms of engineering and
+for smaller amounts of data and can be simpler in terms of development and
 deployment. Some batch processes can also be useful for "recomputing the world"
 when you want to analyze existing data in a new way.
 
