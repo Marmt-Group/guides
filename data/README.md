@@ -4,18 +4,17 @@ A guide for managing a series of tubes.
 
 ## Best Practices
 
+* Avoid automatic retries for non-idempotent operations.
+* Use at least once delivery with idempotent operations.
+* Use at most once delivery with non-idempotent operations.
 * Use stream processing for data which is not guaranteed to fit into memory.
 
 ### Streaming
 
-* Avoid automatic retries for non-idempotent operations.
-* Avoid storing messages with different schemas in the same topic or message
-  queue.
+* Avoid storing messages with different schemas in the same topic or queue.
 * Keep messages as small as possible.
 * Use as few distinct resources (CPU, Postgres, S3, HTTP requests) as possible
   in each consumer.
-* Use at least once delivery with idempotent operations.
-* Use at most once delivery with non-idempotent operations.
 * Use constant memory to process streams when feasible.
 * When one message would perform more than one operation, instead have that
   message append a new message for each operation.
@@ -98,3 +97,12 @@ which does not replace a previous record in the stream.
 
 *Changelog Stream*: a stream where each message represents the latest state for
 a particular entity.
+
+*Topic*: in Kafka, a partitioned, append-only log of messages which can be
+consumed in order by partition.
+
+*Partition*: in Kafka, a way of breaking the messages of a topic into groups
+which can be consumed in parallel by one or more workers.
+
+*Queue*: in RabbitMQ, messages sent to an exchange are placed on a queue.
+Messages on a queue can be consumed in parallel by one or more workers.
