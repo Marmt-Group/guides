@@ -17,7 +17,7 @@ A guide for managing a series of tubes.
 * Use at least once delivery with idempotent operations.
 * Use at most once delivery with non-idempotent operations.
 * Use constant memory to process streams when feasible.
-* When one message would perform more than on operation, instead have that
+* When one message would perform more than one operation, instead have that
   message append a new message for each operation.
 * When reading from the same queue with more than one consumer, ensure that it's
   acceptable to process messages from that queue out of order.
