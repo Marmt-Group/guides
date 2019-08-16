@@ -43,7 +43,7 @@ when you want to analyze existing data in a new way.
 processing all data at once. Streaming is necessary for processing infinite
 event streams. It's also useful for processing large amounts of data, because it
 prevents memory overflows during processing and makes it easier to process data
-in a distributed manner or real-time manner.
+in a distributed or real-time manner.
 
 *Real-time*: analyzing data and delivering results simultaneously so that stream
 output is always visible. For example, real-time analytics will mean that the
