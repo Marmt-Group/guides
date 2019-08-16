@@ -52,7 +52,7 @@ the latest results in a user interface.
 
 *Parallel Processing*: performing multiple tasks at the same time, for example
 on different cores or processors. Parallel processing is necessary in order to
-perform more than one computation at once, such as parsing or aggregation.
+perform more than one computation at once; common uses are parsing or aggregation.
 
 *Concurrent Processing*: managing multiple ongoing tasks at once without
 necessarily processing more than one task in the same exact moment. Concurrent
