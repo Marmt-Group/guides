@@ -7,7 +7,6 @@ Guides for getting things done, programming well, and programming in style.
 
 * [Best Practices](./best-practices)
 * [Code Review](./code-review)
-* [How to](./how-to)
 * [Protocol](./protocol)
   * [Communication](./protocol/communication)
   * [Git](./protocol/git)
@@ -33,25 +32,6 @@ A note on the language:
 * "Don't" means there's never a good reason.
 * "Prefer" indicates a better option and its alternative to watch out for.
 * "Use" is a positive instruction.
-
-Contributing
-------------
-
-Please read the [contribution guidelines] before submitting a pull request.
-
-In particular: **if you have commit access, please don't merge changes without
-waiting a week for everybody to leave feedback**.
-
-[contribution guidelines]: /CONTRIBUTING.md
-
-Credits
--------
-
-Thank you, [contributors](https://github.com/thoughtbot/guides/graphs/contributors)!
-
-![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
-
-Guides is maintained by [thoughtbot, inc](https://thoughtbot.com).
 
 License
 -------
