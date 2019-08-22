@@ -5,15 +5,8 @@ Guides
 
 Guides for getting things done, programming well, and programming in style.
 
-* [Best Practices](./best-practices)
 * [Code Review](./code-review)
 * [Protocol](./protocol)
-  * [Communication](./protocol/communication)
-  * [Git](./protocol/git)
-  * [iOS](./protocol/ios)
-  * [Open Source](./protocol/open-source)
-  * [Product Review](./protocol/product-review)
-  * [Rails](./protocol/rails)
 * [Security](./security)
 * [Style](./style)
 * [Web Performance](./web-performance)
